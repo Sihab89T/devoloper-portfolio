@@ -157,3 +157,28 @@ main sectio {
     font-size: 30px;
     font-weight: 700;
 }
+
+
+.resume-item-title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-institute,
+.resme-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
