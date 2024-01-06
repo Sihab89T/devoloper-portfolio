@@ -63,9 +63,9 @@ nav a {
 
 .header {
     background-color: rgba(216, 119, 102, 0.089);
-    background-image: url(../image/header_bg.png);
+    background-image: url(../image/header_bg.png), url('../image/developer.png'); 
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -199,7 +199,7 @@ footer{
 .footer-column{
     width: 50%;
 }
-.contact input[type="text"] textarea{
+.contact input[type="text"], .contact input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
@@ -208,4 +208,7 @@ footer{
     border-radius: 5px;
     border: 0;
 }
-.contact input
+
+.social-links a{
+    margin-right: 25px;
+}
